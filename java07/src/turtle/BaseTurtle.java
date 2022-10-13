@@ -76,6 +76,8 @@ public class BaseTurtle {
 	 */
 	protected void moveBy(double dx, double dy) {
 		go(x + dx, y + dy);
+		x += dx;
+		y += dy;
 	}
 
 	/**
